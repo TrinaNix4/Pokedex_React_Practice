@@ -1,16 +1,10 @@
 import "./App.css";
-import Pokecard from "./Pokecard";
+import Pokedex from "./Pokedex";
 
 function App() {
   return (
     <div className="App">
-      <Pokecard
-        //pass in props
-        id={4}
-        name="Charmander"
-        type="fire"
-        exp={62}
-      />
+      <Pokedex />
     </div>
   );
 }
